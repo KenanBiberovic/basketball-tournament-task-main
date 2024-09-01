@@ -7,16 +7,81 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             margin: 20px;
+            line-height: 1.6;
         }
-        h2 {
-            margin-top: 20px;
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
         }
+
+        button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        #results {
+            margin-top: 40px;
+        }
+
         .group-results {
             margin-bottom: 40px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
         }
+
+        .group-title {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #e67e22;
+        }
+
         .match, .team-standing {
-            margin-bottom: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+
+        .match:last-child, .team-standing:last-child {
+            border-bottom: none;
+        }
+
+        .team-standing {
+            background-color: #f9f9f9;
+        }
+
+        .quarterfinals, .semifinals, .finals, .medals {
+            margin-top: 50px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #16a085;
+            text-align: center;
         }
     </style>
 </head>
